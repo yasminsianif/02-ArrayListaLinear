@@ -1,4 +1,4 @@
-// Yasmin Siani Farokhdad
+// Yasmin Siani
 #include <iostream>
 using namespace std;
 
@@ -12,7 +12,7 @@ void buscarElemento();
 //--------------------------
 
 
-const int MAX = 2;;
+const int MAX = 5;
 int lista[MAX]{};
 int nElementos = 0;
 
@@ -104,5 +104,18 @@ void inserirElemento()
 // deve ser implementada como resposta ao exercicio
 void buscarElemento()
 {
+	int num; 
+	int f = 0;
+	cout << "digite o elemento que voce quer buscar: \n";
+	cin >> num;
+	for (int n = 0; n < nElementos; n++) {
+		if (num == lista [n]) {
+			cout << "encontrei " << num << " na posicao" << n;
+			f++; 
 
+		}
+	}
+	if (f == 0) {
+		cout << " nao encontrei ";
+	}
 }
