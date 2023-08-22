@@ -1,4 +1,4 @@
-// Yasmin Siani Farokhdad
+
 #include <iostream>
 using namespace std;
 
@@ -78,7 +78,7 @@ void exibirElementos()
 {
 	if (nElementos == 0)
 	{
-		cout << " A lista esta vazia \n"; 
+		cout << " A lista esta vazia \n";
 	}
 	else {
 		cout << "Elementos: \n";
